@@ -1,20 +1,48 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 SpeedoType - Typing Speed Test (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SpeedoType is a modern and interactive typing speed test application built using React. It helps users measure their typing speed, accuracy, and performance in real-time with a clean and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+* ⌨️ Real-time typing speed calculation (WPM)
+* 🎯 Accuracy tracking
+* 🔄 Restart / Try Again functionality
+* 📊 Instant performance results
+* 🎨 Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# SpeedoType
->>>>>>> d8cbab4bcbe66b9900060ed02bea5c4c2ed4d50e
+* Frontend: React.js
+* Build Tool: Vite
+* Styling: CSS
+* Package Manager: npm
+
+---
+
+## 📂 Project Structure
+
+```
+SpeedoType/
+│── public/
+│── src/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   ├── pages/
+│   │   └── Home.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## 👩‍💻 Author
+
+Developed by **Shivani Mourya**
+
+---
