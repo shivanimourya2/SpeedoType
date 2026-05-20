@@ -43,6 +43,6 @@ SpeedoType/
 
 ## 👩‍💻 Author
 
-Developed by **Shivani Mourya**
+**Shivani Mourya**
 
 ---
