@@ -2,12 +2,9 @@
 
 SpeedoType is a modern and interactive typing speed test application built using React. It helps users measure their typing speed, accuracy, and performance in real-time with a clean and responsive UI.
 
----
 ## 🌐 Live Demo
 
 🔗 **https://speedo-type-eosin.vercel.app**
-
----
 
 ## 📌 Features
 
