@@ -12,7 +12,6 @@ SpeedoType is a modern and interactive typing speed test application built using
 * 🎯 Accuracy tracking
 * 🔄 Restart / Try Again functionality
 * 📊 Instant performance results
-* 🎨 Clean and responsive UI
 
 ---
 
