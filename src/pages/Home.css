@@ -93,3 +93,24 @@ body {
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+.timer {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 12px auto 18px;
+}
