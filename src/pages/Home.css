@@ -96,21 +96,21 @@ body {
 
 .timer {
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 550;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 8px;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .stats {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 10px;
 }
 
 .divider {
-    width: 80%;
+    width: 90%;
     height: 1px;
     background-color: rgba(0, 0, 0, 0.2);
-    margin: 12px auto 18px;
+    margin:  auto 18px;
 }
