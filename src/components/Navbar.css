@@ -72,3 +72,76 @@ h1 {
     outline: none;
     box-shadow: none;
 }
+
+/*responsive Design */
+
+@media screen and (max-width: 768px) {
+    .navbar,
+    .dark-navbar {
+        height: 70px;
+        padding: 8px 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+    .best-score,
+    .best-text {
+        font-size: 18px;
+    }
+
+    .theme-toggle {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+}
+
+/* Small Mobile Screens */
+@media screen and (max-width: 480px) {
+    .navbar,
+    .dark-navbar {
+        height: 65px;
+        padding: 8px 10px;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+
+    .nav-right {
+        gap: 6px;
+    }
+
+    .best-score,
+    .best-text {
+        font-size: 13px;
+    }
+
+    .theme-toggle {
+        font-size: 13px;
+        padding: 7px 10px;
+        margin: 2px;
+    }
+}
+
+/* Extra Small Screens */
+@media screen and (max-width: 350px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .best-score,
+    .best-text {
+        font-size: 11px;
+    }
+
+    .theme-toggle {
+        font-size: 11px;
+        padding: 6px 8px;
+    }
+}
