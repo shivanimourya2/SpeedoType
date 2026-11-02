@@ -1,29 +1,29 @@
-.navbar {
-    position: absolute;
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 16px;
-    background: #eeeedb;
-    color: black;
-}
 
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar,
 .dark-navbar {
     position: absolute;
     box-sizing: border-box;
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    min-height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px;
+    z-index: 100;
+}
+
+.navbar {
+    background: #eeeedb;
+    color: black;
+}
+
+.dark-navbar {
     background: rgba(34, 34, 34, 0.85);
     color: white;
 }
@@ -38,11 +38,13 @@
     font-weight: bold;
     color: #ff5722;
     font-size: 24px;
+    white-space: nowrap;
 }
 
 .best-text {
     font-weight: bold;
     font-size: 24px;
+    white-space: nowrap;
 }
 
 h1 {
@@ -61,6 +63,7 @@ h1 {
     font-size: 22px;
     transition: 0.3s;
     outline: none;
+    white-space: nowrap;
 }
 
 .theme-toggle:hover {
@@ -73,12 +76,14 @@ h1 {
     box-shadow: none;
 }
 
-/*responsive Design */
+/* ===========================
+   TABLET
+=========================== */
 
 @media screen and (max-width: 768px) {
     .navbar,
     .dark-navbar {
-        height: 70px;
+        min-height: 70px;
         padding: 8px 12px;
     }
 
@@ -101,16 +106,20 @@ h1 {
     }
 }
 
-/* Small Mobile Screens */
+/* ===========================
+   MOBILE
+=========================== */
+
 @media screen and (max-width: 480px) {
     .navbar,
     .dark-navbar {
-        height: 65px;
+        min-height: 65px;
         padding: 8px 10px;
     }
 
     h1 {
-        font-size: 21px;
+        font-size: 20px;
+        margin: 2px;
     }
 
     .nav-right {
@@ -119,29 +128,41 @@ h1 {
 
     .best-score,
     .best-text {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .theme-toggle {
-        font-size: 13px;
-        padding: 7px 10px;
+        font-size: 12px;
+        padding: 7px 9px;
         margin: 2px;
     }
 }
 
-/* Extra Small Screens */
+/* ===========================
+   EXTRA SMALL MOBILE
+=========================== */
+
 @media screen and (max-width: 350px) {
+    .navbar,
+    .dark-navbar {
+        padding: 6px 7px;
+    }
+
     h1 {
-        font-size: 18px;
+        font-size: 17px;
+    }
+
+    .nav-right {
+        gap: 4px;
     }
 
     .best-score,
     .best-text {
-        font-size: 11px;
+        font-size: 10px;
     }
 
     .theme-toggle {
-        font-size: 11px;
-        padding: 6px 8px;
+        font-size: 10px;
+        padding: 6px 7px;
     }
 }
